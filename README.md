@@ -11,7 +11,7 @@ animated maps, growth chart, top markets, and method notes.
 
 ## The numbers (real customers, bots/AI agents removed)
 - **158,762** real US visitor sessions over 24 months
-- **+126%** growth from the first 6 months to the last 6 (≈4.3k → ≈9.7k/mo)
+- **+73% year-over-year** (last 12 months vs the prior 12: ~100,700 vs ~58,100 sessions); a log-linear trend implies ≈70%/yr
 - Top states: **California (28.6k) › New York (18.4k) › Texas (13.3k) › Washington › Florida › Illinois**
 - Top cities: **Los Angeles › New York › Brooklyn › San Jose › Chicago › Fort Worth › San Antonio › Seattle**
 - California + New York + Texas ≈ **38%** of US demand
