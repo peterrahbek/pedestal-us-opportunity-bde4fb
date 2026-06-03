@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1456" fill="currentColor" role="img" aria-label="logo">
+  <!-- bowl / ring (counter punched out via evenodd) -->
+  <path fill-rule="evenodd"
+        d="M290 460 a365 365 0 1 0 730 0 a365 365 0 1 0 -730 0 Z
+           M430 460 a225 225 0 1 1 450 0 a225 225 0 1 1 -450 0 Z"/>
+  <!-- left stem + descender hooking right into the foot -->
+  <path d="M88 95 L300 95 L300 1180 Q300 1360 495 1360 L495 1456 L88 1456 Z"/>
+</svg>
