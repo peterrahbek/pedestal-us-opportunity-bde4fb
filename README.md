@@ -1,6 +1,6 @@
 # Pedestal — US Market Opportunity
 
-A 24-month snapshot of **organic US demand** across all 11 Pedestal Shopify
+A 24-month snapshot of **US demand** (almost entirely organic) across all 11 Pedestal Shopify
 storefronts (Jun 2024 – May 2026). Pedestal has no US-localized store and no
 US-targeted ad spend, yet US visitor sessions are substantial and growing fast.
 Bot & AI-agent traffic is flagged out so the headline reflects **real people**.
