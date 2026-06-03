@@ -20,8 +20,8 @@ animated maps, growth chart, top markets, and method notes.
 ```
 index.html                     One-page opportunity summary (open this)
 maps/
-  states-by-month.html/.gif/.mp4   Animated state choropleth, month by month
-  cities-by-month.html/.gif/.mp4   Animated city bubble map (top metros)
+  states-by-month.html   Interactive animated state choropleth (also embedded in index.html)
+  cities-by-month.html   Interactive animated city bubble map (top metros)
 charts/
   overview.html / overview.png     Real humans vs bots/AI agents; growth + top markets
 data/
@@ -30,8 +30,8 @@ data/
   all-traffic_state-by-month.csv      All sessions incl. bots/AI agents (for reference)
   all-traffic_city-by-month.csv       All sessions incl. bots/AI agents (for reference)
 ```
-GIF/MP4 work offline. The interactive `.html` maps use a charting library from a
-CDN, so they need an internet connection.
+The maps are interactive and embedded in `index.html`; the charting library loads
+from a CDN, so viewing needs an internet connection.
 
 ## Method & the bot/AI caveat
 - **Source:** Shopify "Sessions by location" report, all 11 storefronts, United

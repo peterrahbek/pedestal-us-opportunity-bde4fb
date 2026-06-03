@@ -8,9 +8,7 @@
  *{box-sizing:border-box} body{font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);margin:0;background:#fafafb}
  .hero{background:linear-gradient(135deg,#2a1414,#3b1f1f 55%,#5a2a22);color:#fff;padding:46px 22px 40px}
  .hero .in{max-width:1100px;margin:0 auto}
- .brand{display:flex;align-items:center;gap:13px;margin-bottom:18px}
- .brand .logo{height:50px;width:auto;filter:invert(1)}
- .brand b{font-size:20px;letter-spacing:.02em;font-weight:700}
+ .wordmark{height:38px;width:auto;display:block;margin-bottom:20px}
  .hero .tag{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#e9b8b0;margin:0 0 10px}
  .hero h1{font-size:30px;margin:0 0 12px;line-height:1.2}
  .hero p{font-size:17px;color:#f0e2df;margin:0;max-width:760px}
@@ -39,7 +37,7 @@
 </style></head><body>
 
 <div class="hero"><div class="in">
- <div class="brand"><img class="logo" src="assets/logo.svg" alt="Pedestal"><b>Pedestal</b></div>
+ <img class="wordmark" src="assets/wordmark-white.svg" alt="pedestal">
  <p class="tag">US Market Opportunity</p>
  <h1>There is already real, growing US demand — with no US store behind it.</h1>
  <p>Pedestal sells from European and international Shopify storefronts, with no US-localized store and no US-targeted ad spend. Even so, American shoppers keep finding us — and the trend is accelerating. This is a 24-month snapshot of that latent demand: <b>how much, where, and how fast it's growing</b> — with bot &amp; AI-agent traffic filtered out so you're looking at real people.</p>
@@ -57,7 +55,7 @@
 <h2>The opportunity</h2>
 <ul class="lead">
  <li><b>Demand exists before we've even shown up.</b> 158,762 real US visitor sessions in 24 months, entirely organic — no US storefront, no US ad accounts, prices in EUR, shipping from Europe.</li>
- <li><b>It's growing fast.</b> Real US sessions more than doubled (+126%), with a clear step-up from October 2025 onward — momentum a local partner could convert.</li>
+ <li><b>It's growing fast.</b> Real US sessions more than doubled (+126%), with a clear step-up from October 2025 onward — momentum a US partner is set to convert.</li>
  <li><b>It's concentrated.</b> California, New York and Texas alone are ~38% of US demand; the top metros are Los Angeles, New York City, the Bay Area, Chicago, Seattle, Dallas and Atlanta — a focused launch/fulfilment map.</li>
  <li><b>The friction is obvious.</b> Today these visitors hit EUR pricing and European shipping. A US store, local fulfilment and targeted marketing remove exactly the barriers this traffic is already pushing through.</li>
 </ul>
@@ -66,11 +64,11 @@
 <p class="hint">Press <b>▶ Play</b> (bottom-left of each map) or drag the month slider. Real customers only — datacenter/bot traffic removed.</p>
 <div class="card"><h3>By state</h3>
  <iframe class="map" src="maps/states-by-month.html" title="US sessions by state, monthly" loading="lazy"></iframe>
- <div class="cap"><a href="maps/states-by-month.html" target="_blank" rel="noopener">Full screen ↗</a> · <a href="maps/states-by-month.mp4">MP4</a> · <a href="maps/states-by-month.gif">GIF</a></div>
+ <div class="cap"><a href="maps/states-by-month.html" target="_blank" rel="noopener">Open full screen ↗</a></div>
 </div>
 <div class="card"><h3>By city (top metros)</h3>
  <iframe class="map" src="maps/cities-by-month.html" title="US sessions by city, monthly" loading="lazy"></iframe>
- <div class="cap"><a href="maps/cities-by-month.html" target="_blank" rel="noopener">Full screen ↗</a> · <a href="maps/cities-by-month.mp4">MP4</a> · <a href="maps/cities-by-month.gif">GIF</a></div>
+ <div class="cap"><a href="maps/cities-by-month.html" target="_blank" rel="noopener">Open full screen ↗</a></div>
 </div>
 
 <h2>Growth &amp; data quality</h2>
@@ -96,8 +94,8 @@
 <h2>How to read this — and the bot/AI caveat</h2>
 <div class="note">
  <b>Source:</b> Shopify "Sessions by location" across all 11 Pedestal storefronts, United States only, monthly, Jun 2024–May 2026.<br><br>
- <b>Bots &amp; AI agents flagged out.</b> ~48% of raw "US sessions" came from cloud-datacenter locations — Council Bluffs IA (Google), Ashburn VA (AWS), North Bergen NJ, Forest City NC (Meta), Prineville OR. These are search/AI crawlers, on-demand AI fetchers (ChatGPT, Perplexity, Google AI) and monitoring bots; they geolocate to the <i>server</i>, not a person, so they're excluded from the real-customer view shown here. The full all-traffic figures are in <code>data/all-traffic_*.csv</code> for completeness, and the chart above shows the split. Real humans who arrive <i>from</i> an AI answer (a person clicking through) are counted normally, at their real location.
+ <b>Bots &amp; AI agents flagged out.</b> ~48% of raw "US sessions" came from cloud-datacenter locations — Council Bluffs IA (Google), Ashburn VA (AWS), North Bergen NJ, Forest City NC (Meta), Prineville OR. These are search/AI crawlers, on-demand AI fetchers (ChatGPT, Perplexity, Google AI) and monitoring bots; they geolocate to the <i>server</i>, not a person, so they're excluded from the real-customer view shown here. The full all-traffic figures (<a href="data/all-traffic_state-by-month.csv">state</a>, <a href="data/all-traffic_city-by-month.csv">city</a>) are included for completeness, and the chart above shows the split. Real humans who arrive <i>from</i> an AI answer (a person clicking through) are counted normally, at their real location.
 </div>
 
-<footer>Prepared June 2026 · data through May 2026 · figures are website sessions (visits), not orders · interactive maps need an internet connection; GIF/MP4 work offline.</footer>
+<footer>Prepared June 2026 · data through May 2026 · figures are website sessions (visits), not orders.</footer>
 </div></body></html>
