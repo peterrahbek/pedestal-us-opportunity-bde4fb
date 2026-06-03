@@ -30,6 +30,11 @@
  a.btn.alt{background:#fff;color:var(--ink);border:1px solid #ccc;margin-left:6px}
  ul{margin:8px 0 0;padding-left:20px} li{margin:6px 0}
  .two{display:grid;grid-template-columns:1fr 1fr;gap:26px}@media(max-width:820px){.two{grid-template-columns:1fr}}
+ .board b{display:flex;justify-content:space-between;align-items:baseline;font-size:15px;border-bottom:2px solid var(--line);padding-bottom:6px}
+ .board b span{font-size:12px;font-weight:400;color:var(--mut)}
+ ul.rank{list-style:none;padding:0;margin:6px 0 0}
+ ul.rank li{display:flex;justify-content:space-between;gap:16px;padding:6px 2px;border-bottom:1px solid #f1f1f4}
+ ul.rank li span{font-variant-numeric:tabular-nums;font-weight:600}
  .lead{font-size:17px}
  .note{background:#f3f7ff;border:1px solid #d4e2f5;border-radius:10px;padding:14px 16px;color:#33405a;font-size:14.5px}
  code{background:#eef0f4;padding:1px 5px;border-radius:4px;font-size:13px}
@@ -72,22 +77,35 @@
 </div>
 
 <h2>The trajectory — and what we filtered out</h2>
-<div class="card"><img src="charts/overview.png" alt="Real humans vs bots/AI agents overview">
- <a class="btn" href="charts/overview.html">Open interactive ▶</a></div>
+<div class="card"><img src="charts/overview.png" alt="Real humans vs bots/AI agents overview"></div>
 
 <h2>The leading markets — where to land first</h2>
 <div class="two">
- <div><b>States</b>
-  <ul>
-   <li>California — 28,640</li><li>New York — 18,437</li><li>Texas — 13,318</li>
-   <li>Washington — 7,706</li><li>Florida — 5,927</li><li>Illinois — 5,446</li>
-   <li>Georgia — 4,268 · Pennsylvania — 3,280 · Massachusetts — 2,990</li>
+ <div class="board"><b>States <span>real US sessions · 24 mo</span></b>
+  <ul class="rank">
+   <li>California<span>28,640</span></li>
+   <li>New York<span>18,437</span></li>
+   <li>Texas<span>13,318</span></li>
+   <li>Washington<span>7,706</span></li>
+   <li>Florida<span>5,927</span></li>
+   <li>Illinois<span>5,446</span></li>
+   <li>Georgia<span>4,268</span></li>
+   <li>New Jersey<span>3,940</span></li>
+   <li>Virginia<span>3,523</span></li>
+   <li>Pennsylvania<span>3,280</span></li>
   </ul></div>
- <div><b>Cities</b>
-  <ul>
-   <li>Los Angeles, CA — 8,471</li><li>New York, NY — 8,330</li><li>Brooklyn, NY — 4,533</li>
-   <li>San Jose, CA — 4,320</li><li>Chicago, IL — 3,840</li><li>Fort Worth, TX — 3,017</li>
-   <li>San Antonio · Seattle · San Francisco · Dallas · Atlanta</li>
+ <div class="board"><b>Cities <span>real US sessions · 24 mo</span></b>
+  <ul class="rank">
+   <li>Los Angeles, CA<span>8,471</span></li>
+   <li>New York, NY<span>8,330</span></li>
+   <li>Brooklyn, NY<span>4,533</span></li>
+   <li>San Jose, CA<span>4,320</span></li>
+   <li>Chicago, IL<span>3,840</span></li>
+   <li>Fort Worth, TX<span>3,017</span></li>
+   <li>San Antonio, TX<span>2,680</span></li>
+   <li>Des Moines, IA<span>2,483</span></li>
+   <li>Seattle, WA<span>2,352</span></li>
+   <li>San Francisco, CA<span>1,916</span></li>
   </ul></div>
 </div>
 
